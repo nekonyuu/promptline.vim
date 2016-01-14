@@ -1,4 +1,4 @@
-fun! promptline#presets#powerlineclone#get()
+fun! promptline#presets#powerlineops#get()
   return {
         \'a' : [ promptline#slices#host() ],
         \'b' : [ '$USER'],
